@@ -1,0 +1,44 @@
+body {
+   font-family: Roboto, Helvetica, sans-serif;
+   text-align: center;
+}
+
+.x {
+   color: red;
+}
+
+.o {
+   color: blue;
+ }
+ 
+#board {
+   font: 85px arial, sans-serif;
+   margin: 3px;
+   
+   /* Your solution goes here */      
+   display: grid;
+   grid-template-columns: 100px 100px 100px;
+   grid-template-rows: 100px 100px 100px;
+   grid-gap: 10px;
+   justify-content: center;
+   background: repeating-linear-gradient(blue, grey 5%);
+}
+
+#board > div {
+   border: 1px solid LightSkyBlue;
+   text-align: center;
+   
+}
+
+.container {
+   display: flex; 
+   width: 150px;
+   justify-content: space-between;
+   flex-direction: row-reverse;
+}
+
+.item {
+   flex-basis: 25%;                    
+   text-align: center;
+   
+}

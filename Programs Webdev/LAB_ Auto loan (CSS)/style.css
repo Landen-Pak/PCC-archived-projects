@@ -1,0 +1,71 @@
+/* Your code goes here */
+body {
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 16px;
+    color: #444444;
+    text-align: center;
+}
+
+.container {
+    margin: 5px;
+    font-size: 13px;
+}
+
+.offer {
+    margin: 4px;
+    width: 400px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #cccccc;
+
+}
+
+.offer-title {
+    font-size: 14px;
+    font-style: bold;
+    color: #ffffff;
+    background-color: #00b3b3;
+    margin: 0px;
+    padding: 15px;
+}
+
+.offer-contents {
+    padding: 20px;
+    background-color: #fafafa;
+}
+
+table {
+    width: 100%;
+    background-color: #ffffff;
+    border-spacing: 0px;
+}
+
+th {
+    font-size: 12px;
+    font-style: bold;
+    color: #777777;
+    padding: 10px;
+    margin: 0px;
+    text-align: left;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+td {
+    font-weight: lighter;
+    color: #444444;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0px;
+    text-align: left;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.final-value {
+    font-weight: bold;
+    color: #2222ff;
+}
